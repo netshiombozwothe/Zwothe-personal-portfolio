@@ -37,3 +37,8 @@ span{
     margin-right: 30px;
     box-shadow: 10px -10px 15px grey;
 }
+
+.fa-brands{
+    margin-left: 40px;
+    font-size: 35px;
+}
