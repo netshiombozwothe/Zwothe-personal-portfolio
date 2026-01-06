@@ -1,0 +1,15 @@
+
+.profile-image{
+      transition: transform 2s ease-in-out
+}
+/* Swing animation */
+.swing{
+  animation: swing 10s infinite; /* keep repeating */
+}
+
+/* The keyframes tell the image how to move */
+@keyframes swing{
+  0%   { transform: translateX(-60px); }   /* start at center */
+  50%  { transform: translateX(50px); }  /* move right */
+  100% { transform: translateX(-60px); } /* move left */
+}
